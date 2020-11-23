@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Create Your Own Birth Chart</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <!-- FONTAWESOME
+    ------------------------------------------------ -->
+    <script src="https://kit.fontawesome.com/c978f98f9e.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!--Navbar-->
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Create Your Own Birth Chart</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#currentTransits">Planetary Transits</a></li>
+                <li><a href="#birthChart">Birth Chart</a></li>
+                <li><a href="#moonPhases">Moon Phases</a></li>
+                <li><a href="https://astro-charts.com">Astro-Charts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!--Intro Card-->
+        <div class="row">
+            <div class="col s12 m5">
+                <div class="card-panel cyan accent-3>
+                <span class=" white-text ">Hey y'all! Welcome to this astrology site. I made this webpage as a way to learn how to use <a href="https://astro-charts.com " target="_blank ">MaterializeCSS</a>. I also use free widgets from <a href="https://astro-charts.com
+                    " target="_blank ">Astro-Chart</a>                . You can find me at my GitHub <a href="https://github.com/CoderJai " target="_blank ">here</a>
+        </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="col s12 ">
+        <div class="intro ">
+            <h2> Hey y'all! Welcome to this astrology site. I made this webpage as a way to learn how to use <a href="https://astro-charts.com " target="_blank ">MaterializeCSS</a>. I also use free widgets from <a href="https://astro-charts.com
+                    " target="_blank ">Astro-Chart</a>                . You can find me at my GitHub <a href="https://github.com/CoderJai " target="_blank ">here</a>.</h2>
+            <div style="width:50%;height:0;padding-bottom:100%;position:relative; "><iframe src="https://giphy.com/embed/26xBDUtyALVBuMeu4 " width="50% " height="50% " style="position:absolute " frameBorder="0 " class="giphy-embed " allowFullScreen></iframe></div>
+            <p><a href="https://giphy.com/gifs/astrology-zodiac-metaphysical-26xBDUtyALVBuMeu4 ">via GIPHY</a></p>
+        </div>
+    </div> -->
+
+    <div class="col s12 ">
+        <!--Current Trnasits-->
+        <div class="divider "></div>
+        <div class="section " id="currentTransits ">
+            <h5>Current Planetary Transits</h5>
+            <p class="flow-text ">Check out the current plantary trnasits for the day. Some transits change daily, weekly, monthly, and over the years.</p>
+            <div id="widget_coa_container " lat="40.71427 " lng="-74.00597 " place="New York City, New York, United States ">
+                <a id="coa_astro " href="https://astro-charts.com "></a>
+            </div>
+            <script type="text/javascript " src="https://astro-charts.com/client/common/widget/js/widget-coa.min.js "></script>
+        </div>
+    </div>
+
+    <!--Birth Chart-->
+    <div class="col 12 ">
+        <div class="divider "></div>
+        <div class="section " id="birthChart ">
+            <h5>Create Your Birth Chart</h5>
+            <p class="flow-text ">Simply type your information into the birth chart widget from <a href="https://astro-charts.com " target="_blank ">astro-chart</a> s to get your tradtional Western style birth chart. This natal chart will show your planets, aspects, and chart
+                patterns
+            </p>
+            <div id="widget_container ">
+                <a id="bc_astro " href="https://astro-charts.com "></a>
+            </div>
+            <script type="text/javascript " src="https://astro-charts.com/client/common/widget/js/widget-birthchart.min.js "></script>
+        </div>
+    </div> 
+    <!--Moon Phases-->
+    <div class="col s12 ">
+        <div class="divider "></div>
+        <div class="section " id="moonPhases ">
+            <h5>Moon Phases</h5>
+            <p class="flow-text ">The moon changes phases every few days. Check out what phase the moon is in here.</p>
+            <div class="moon_container horizontal " lat="40.71427 " lng="-74.00597 " place="New York City, New York, United States ">
+                <a class="moon_astro " href="https://astro-charts.com "></a>
+            </div>
+            <script type="text/javascript " src="https://astro-charts.com/client/common/widget/js/widget-moon.min.js "></script>
+        </div>
+    </div>
+
+</div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript " src="js/materialize.js "></script>
+</body>
+
+<footer class="page-footer " >
+   <!--  <div class ="container ">
+    <div class="col s12 ">
+        <!-- <div style="width:100%;height:0;padding-bottom:115%;position:relative; "><iframe src="https://giphy.com/embed/ArAgo5dU2z2xO " width="50% " height="50% " style="position:absolute " frameBorder="0 " class="giphy-embed " allowFullScreen></iframe></div>
+        <p><a href="https://giphy.com/gifs/atinum-cat-animation-ArAgo5dU2z2xO ">via GIPHY</a></p> -->
+       
+      <!--   <div class="footerSocialMedia " >
+            <a href="https://www.linkedin.com/in/jaimarshall/ ">
+                <i class="fab fa-linkedin "></i
+      ></a>
+      <a href="https://github.com/CoderJai ">
+        <i class="fab fa-github-square "></i
+      ></a>
+      <a href="https://twitter.com/jaishirelle "
+        ><i class="fab fa-twitter-square "></i
+      ></a>
+      <a href="mailto:jaismarshall@gmail.com "
+        ><i class="fas fa-envelope-square "></i
+      ></a>
+      <a href="https://jaishirelle.life ">
+        <i class="fas fa-blog "></i></a>
+        </div> -->
+    </div></div> -->
+    <div class="footer-copyright ">
+        <div class="container ">
+        © 2020 Copyright Text
+        </div>
+      </div>
+
+</footer>
+
+</html>
